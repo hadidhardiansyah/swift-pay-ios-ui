@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftPayApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            WelcomeView()
+                .environmentObject(AuthViewModel.shared)
+//            ActivationView(numberOfFields: 6)
         }
     }
 }
