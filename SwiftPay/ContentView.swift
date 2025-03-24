@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var authViewModel = AuthViewModel.shared
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if authViewModel.isAuthenticated {
+            TabBarView() // Hanya panggil TabBarView di sini
+        } else {
+            WelcomeView()
         }
-        .padding()
     }
 }
 

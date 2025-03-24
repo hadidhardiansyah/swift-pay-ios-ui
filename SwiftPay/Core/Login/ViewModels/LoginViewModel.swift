@@ -20,11 +20,15 @@ class LoginViewModel: ObservableObject {
     }
     
     func login(formVM: LoginFormViewModel) {
+        AuthViewModel.shared.setLoading(true)
+        
         let usernameOrEmail = selectedOption == .email ? formVM.email : formVM.phoneNumber
         let user = LoginRequestModel(usernameOrEmail: usernameOrEmail.lowercased(), password: formVM.password)
         
         authService.login(user: user) { result in
             DispatchQueue.main.async {
+                AuthViewModel.shared.setLoading(false)
+                
                 switch result {
                 case .success(_):
                     AuthViewModel.shared.setAuthenticated(true)

@@ -127,6 +127,7 @@ class AuthService {
             if (200...299).contains(httpResponse.statusCode) {
                 do {
                     let authResponse = try JSONDecoder().decode(LoginResponseModel.self, from: data)
+                    UserDefaults.standard.set(authResponse.token, forKey: "authToken")
                     completion(.success(authResponse))
                 } catch {
                     completion(.failure(APIError(message: "Failed to parse success response")))

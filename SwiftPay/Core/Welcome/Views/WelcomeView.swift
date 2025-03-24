@@ -9,6 +9,8 @@ import SwiftUI
 
 struct WelcomeView: View {
     
+    @ObservedObject private var authVM = AuthViewModel.shared
+    
     @StateObject private var vm = WelcomeViewModel()
     
     @State private var path = NavigationPath()
@@ -73,6 +75,11 @@ struct WelcomeView: View {
                     ActivationView(numberOfFields: 6, path: $path)
                 case .activationSuccess:
                     ActivationSuccessView(path: $path)
+                }
+            }
+            .onAppear {
+                if authVM.isAuthenticated {
+                    path = NavigationPath()
                 }
             }
         }

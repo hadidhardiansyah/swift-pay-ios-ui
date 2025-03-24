@@ -14,6 +14,13 @@
 		23284C842D76CCB20042F66C /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23284C832D76CCB20042F66C /* LoginViewModel.swift */; };
 		23284C872D771C9A0042F66C /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23284C862D771C9A0042F66C /* LoginFormView.swift */; };
 		23284C8B2D771DB20042F66C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23284C8A2D771DB20042F66C /* Validator.swift */; };
+		232C9C832D91219C004FC3C8 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C822D91219C004FC3C8 /* TabItemView.swift */; };
+		232C9C862D912678004FC3C8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C852D912678004FC3C8 /* CardView.swift */; };
+		232C9C882D9139B0004FC3C8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C872D9139B0004FC3C8 /* HomeViewModel.swift */; };
+		232C9C8A2D913A3D004FC3C8 /* WalletModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C892D913A3D004FC3C8 /* WalletModel.swift */; };
+		232C9C8C2D913AFB004FC3C8 /* WalletService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C8B2D913AFB004FC3C8 /* WalletService.swift */; };
+		232C9C8E2D914A29004FC3C8 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C9C8D2D914A29004FC3C8 /* Formatter.swift */; };
+		234859932D8469DE00851478 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234859922D8469DE00851478 /* HomeView.swift */; };
 		235249AD2D75F26B000D6CA3 /* SwiftPayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235249AC2D75F26B000D6CA3 /* SwiftPayApp.swift */; };
 		235249AF2D75F26B000D6CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235249AE2D75F26B000D6CA3 /* ContentView.swift */; };
 		235249B12D75F26D000D6CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235249B02D75F26D000D6CA3 /* Assets.xcassets */; };
@@ -24,6 +31,12 @@
 		235249C32D75F679000D6CA3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235249C22D75F679000D6CA3 /* AuthService.swift */; };
 		235249C62D75F9F7000D6CA3 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235249C52D75F9F7000D6CA3 /* AuthViewModel.swift */; };
 		235FC4ED2D7C0CEC00A41EE0 /* BACKUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FC4EC2D7C0CEC00A41EE0 /* BACKUP.swift */; };
+		23710BA22D8939F2002CB063 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BA12D8939F2002CB063 /* TabModel.swift */; };
+		23710BA42D894777002CB063 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BA32D894777002CB063 /* TabShape.swift */; };
+		23710BA62D894958002CB063 /* PositionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BA52D894958002CB063 /* PositionKey.swift */; };
+		23710BAB2D895991002CB063 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BAA2D895991002CB063 /* TabBarView.swift */; };
+		23710BAD2D895A78002CB063 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BAC2D895A78002CB063 /* TabBarViewModel.swift */; };
+		23710BAF2D895C2F002CB063 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23710BAE2D895C2F002CB063 /* CustomTabBar.swift */; };
 		2389777C2D7EDF1200AC492C /* ActivationSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2389777B2D7EDF1200AC492C /* ActivationSuccessView.swift */; };
 		2389777E2D7F102200AC492C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2389777D2D7F102200AC492C /* LoadingView.swift */; };
 		238C06BC2D7D616300062938 /* NavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238C06BB2D7D616300062938 /* NavigationDestination.swift */; };
@@ -45,6 +58,13 @@
 		23284C832D76CCB20042F66C /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		23284C862D771C9A0042F66C /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		23284C8A2D771DB20042F66C /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		232C9C822D91219C004FC3C8 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		232C9C852D912678004FC3C8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		232C9C872D9139B0004FC3C8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		232C9C892D913A3D004FC3C8 /* WalletModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletModel.swift; sourceTree = "<group>"; };
+		232C9C8B2D913AFB004FC3C8 /* WalletService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletService.swift; sourceTree = "<group>"; };
+		232C9C8D2D914A29004FC3C8 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		234859922D8469DE00851478 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		235249A92D75F26B000D6CA3 /* SwiftPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235249AC2D75F26B000D6CA3 /* SwiftPayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPayApp.swift; sourceTree = "<group>"; };
 		235249AE2D75F26B000D6CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +76,12 @@
 		235249C22D75F679000D6CA3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		235249C52D75F9F7000D6CA3 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		235FC4EC2D7C0CEC00A41EE0 /* BACKUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACKUP.swift; sourceTree = "<group>"; };
+		23710BA12D8939F2002CB063 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		23710BA32D894777002CB063 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		23710BA52D894958002CB063 /* PositionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionKey.swift; sourceTree = "<group>"; };
+		23710BAA2D895991002CB063 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		23710BAC2D895A78002CB063 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		23710BAE2D895C2F002CB063 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2389777B2D7EDF1200AC492C /* ActivationSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivationSuccessView.swift; sourceTree = "<group>"; };
 		2389777D2D7F102200AC492C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		238C06BB2D7D616300062938 /* NavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestination.swift; sourceTree = "<group>"; };
@@ -155,8 +181,50 @@
 			isa = PBXGroup;
 			children = (
 				23284C8A2D771DB20042F66C /* Validator.swift */,
+				232C9C8D2D914A29004FC3C8 /* Formatter.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		232C9C842D912669004FC3C8 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				232C9C852D912678004FC3C8 /* CardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		2348598E2D84425600851478 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2348598F2D84437800851478 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2348598F2D84437800851478 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				234859912D84438400851478 /* ViewModels */,
+				234859902D84437F00851478 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		234859902D84437F00851478 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				234859922D8469DE00851478 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		234859912D84438400851478 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				232C9C872D9139B0004FC3C8 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		235249A02D75F26B000D6CA3 = {
@@ -204,6 +272,8 @@
 				235249BB2D75F2BC000D6CA3 /* UserModel.swift */,
 				235249BD2D75F5D7000D6CA3 /* AuthRequestModel.swift */,
 				235249BF2D75F62A000D6CA3 /* AuthResponseModel.swift */,
+				23710BA12D8939F2002CB063 /* TabModel.swift */,
+				232C9C892D913A3D004FC3C8 /* WalletModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,8 +283,38 @@
 			children = (
 				235249C22D75F679000D6CA3 /* AuthService.swift */,
 				235FC4EC2D7C0CEC00A41EE0 /* BACKUP.swift */,
+				232C9C8B2D913AFB004FC3C8 /* WalletService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		23710BA72D895920002CB063 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				23710BA92D895932002CB063 /* ViewModels */,
+				23710BA82D89592B002CB063 /* Views */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		23710BA82D89592B002CB063 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23710BA32D894777002CB063 /* TabShape.swift */,
+				23710BAA2D895991002CB063 /* TabBarView.swift */,
+				23710BA52D894958002CB063 /* PositionKey.swift */,
+				23710BAE2D895C2F002CB063 /* CustomTabBar.swift */,
+				232C9C822D91219C004FC3C8 /* TabItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23710BA92D895932002CB063 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				23710BAC2D895A78002CB063 /* TabBarViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		239F3EB22D790814002F3F1A /* Auth */ = {
@@ -237,9 +337,11 @@
 		23A8845F2D78099000F24E05 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				232C9C842D912669004FC3C8 /* Card */,
 				23A884622D780A2700F24E05 /* AuthButtonsView.swift */,
 				23A884602D7809C900F24E05 /* ErrorTextView.swift */,
 				2389777D2D7F102200AC492C /* LoadingView.swift */,
+				23710BA72D895920002CB063 /* TabBar */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -264,6 +366,7 @@
 		23DC7B3E2D765E4E0062692F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				2348598E2D84425600851478 /* Modules */,
 				230CB2252D7AC3D900141671 /* Activation */,
 				239F3EB22D790814002F3F1A /* Auth */,
 				23A8845F2D78099000F24E05 /* Components */,
@@ -361,29 +464,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234859932D8469DE00851478 /* HomeView.swift in Sources */,
+				232C9C832D91219C004FC3C8 /* TabItemView.swift in Sources */,
+				232C9C8C2D913AFB004FC3C8 /* WalletService.swift in Sources */,
 				2389777C2D7EDF1200AC492C /* ActivationSuccessView.swift in Sources */,
 				239F3EB72D79155D002F3F1A /* RegistrationFormView.swift in Sources */,
 				23284C7F2D76BFE60042F66C /* RegistrationView.swift in Sources */,
 				23284C822D76C16F0042F66C /* WelcomeViewModel.swift in Sources */,
+				23710BA22D8939F2002CB063 /* TabModel.swift in Sources */,
 				23A884632D780A2700F24E05 /* AuthButtonsView.swift in Sources */,
 				235FC4ED2D7C0CEC00A41EE0 /* BACKUP.swift in Sources */,
+				23710BAD2D895A78002CB063 /* TabBarViewModel.swift in Sources */,
 				235249AF2D75F26B000D6CA3 /* ContentView.swift in Sources */,
+				23710BAB2D895991002CB063 /* TabBarView.swift in Sources */,
 				239F3EB92D792C1B002F3F1A /* RegistrationViewModel.swift in Sources */,
 				23A884652D78244500F24E05 /* LoginFormViewModel.swift in Sources */,
+				232C9C862D912678004FC3C8 /* CardView.swift in Sources */,
 				235249BE2D75F5D7000D6CA3 /* AuthRequestModel.swift in Sources */,
 				235249AD2D75F26B000D6CA3 /* SwiftPayApp.swift in Sources */,
 				2389777E2D7F102200AC492C /* LoadingView.swift in Sources */,
 				235249C62D75F9F7000D6CA3 /* AuthViewModel.swift in Sources */,
+				232C9C8A2D913A3D004FC3C8 /* WalletModel.swift in Sources */,
+				232C9C882D9139B0004FC3C8 /* HomeViewModel.swift in Sources */,
 				23DC7B422D765F280062692F /* WelcomeView.swift in Sources */,
 				23284C8B2D771DB20042F66C /* Validator.swift in Sources */,
 				230CB2272D7AC3FF00141671 /* ActivationView.swift in Sources */,
 				23A884612D7809C900F24E05 /* ErrorTextView.swift in Sources */,
 				239F3EB52D791552002F3F1A /* RegistrationFormViewModel.swift in Sources */,
+				232C9C8E2D914A29004FC3C8 /* Formatter.swift in Sources */,
 				238C06BC2D7D616300062938 /* NavigationDestination.swift in Sources */,
 				235249C32D75F679000D6CA3 /* AuthService.swift in Sources */,
 				23284C842D76CCB20042F66C /* LoginViewModel.swift in Sources */,
+				23710BAF2D895C2F002CB063 /* CustomTabBar.swift in Sources */,
 				23284C872D771C9A0042F66C /* LoginFormView.swift in Sources */,
+				23710BA62D894958002CB063 /* PositionKey.swift in Sources */,
 				23ACBAFB2D7AEC8000475788 /* ActivationViewModel.swift in Sources */,
+				23710BA42D894777002CB063 /* TabShape.swift in Sources */,
 				235249BC2D75F2BC000D6CA3 /* UserModel.swift in Sources */,
 				23284C7B2D76BECA0042F66C /* LoginView.swift in Sources */,
 				235249C02D75F62A000D6CA3 /* AuthResponseModel.swift in Sources */,
